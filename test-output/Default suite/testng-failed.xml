@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Gaurav@123"/>
+  <parameter name="emailId" value="testing2510932@gmail.com"/>
+  <parameter name="url" value=" https://apptest.digiboxx.com/login"/>
+  <parameter name="Digispace" value="intern3"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="DigiBoxxTestNG.DigiBoxxTestNG.LoginTest">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DigiBoxxTestNG.DigiBoxxTestNG.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
